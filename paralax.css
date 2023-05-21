@@ -119,77 +119,69 @@ main {
     width: 194.44%;
     top: 1.86%;
     left: 50.69% ;
-
     z-index: 1;
 }
 
 .fog-7{
     position: absolute;
-    width: 2800px;
-    top: calc(50% - 100px);
-    left: calc(50% + 300px);
-
+    width: 194.44%;
+    top: 37.7%;
+    left: 70.83%;
     z-index: 2;
 }
 
 .mountain-10{
     position: absolute;
-    width: 892px;
-    top: calc(50% + 69px);
-    left: calc(50% + 230px);
-
+    width: 61.94%;
+    top: 58.5%;
+    left: 66%;
     z-index: 3;
 }
 
 .fog-6{
     position: absolute;
-    width: 1610px;
-    top: calc(50% + 85px);
-    left: calc(50% + 10px);
-
+    width: 111.8%;
+    top: 60.5%;
+    left: 50.69%;
     z-index: 4;
 }
 
 .mountain-9{
     position: absolute;
-    width: 470px;
-    top: calc(50% + 132px);
-    left: calc(50% - 457px);
-
+    width: 32.63%;
+    top: 66.3%;
+    left: 18.27%;
     z-index: 5;
 }
 
 .mountain-8{
     position: absolute;
-    width: 810px;
-    top: calc(50% + 86px);
-    left: calc(50% - 202px);
-
+    width: 56.25%;
+    top: 60.6%;
+    left: 36%;
     z-index: 6;
 }
 
 .fog-5{
     position: absolute;
-    width: 450px;
-    top: calc(50% + 160px);
-    left: calc(50% + 20px);
-
+    width: 31.25%;
+    top: 69.75%;
+    left: 51.4%;
     z-index: 7;
 }
 
 .mountain-7{
     position: absolute;
-    width: 538px;
-    top: calc(50% + 123px);
-    left: calc(50% + 305px);
-
+    width: 37.36%;
+    top: 55.18%;
+    left: 71.18%;
     z-index: 8;
 }
 
 .text{
     position: absolute;
     z-index: 9;
-    top: calc(50% - 120px);
+    top: 35.19%;
     left: 50%;
     text-align: center;
     text-transform: uppercase;
@@ -210,83 +202,74 @@ main {
 
 .mountain-6{
     position: absolute;
-    width: 408px;
-    top: calc(50% + 60px);
-    left: calc(50% + 590px);
+    width: 28.33%;
+    top: 57.4%;
+    left: 90.97%;
     z-index: 10;
-
 }
 
 .fog-4{
     position: absolute;
-    width: 590px;
-    top: calc(50% + 223px);
-    left: calc(50% - 60px);
+    width: 41%;
+    top: 77.53%;
+    left: 45.84%;
     z-index: 11;
-
 }
 
 .mountain-5{
     position: absolute;
-    width: 625px;
-    top: calc(50% + 250px);
-    left: calc(50% + 130px);
+    width: 43.4%;
+    top: 80.86%;
+    left: 59%;
     z-index: 12;
-
 }
 
 .fog-3{
     position: absolute;
-    width: 1600px;
-    top: calc(50% + 110px);
-    left: calc(50% - 15px);
+    width: 111.11%;
+    top: 63.58%;
+    left: 49%;
     z-index: 13;
-
 }
 
 .mountain-4{
     position: absolute;
-    width: 780px;
-    top: calc(50% + 196px);
-    left: calc(50% - 381.5px);
+    width: 54.16%;
+    top: 74.20%;
+    left: 23.55%;
     z-index: 14;
-
 }
 
 .mountain-3{
     position: absolute;
-    width: 538px;
-    top: calc(50% + 123px);
-    left: calc(50% - -490px);
+    width: 37.36%;
+    top: 65.18%;
+    left: 84.02%;
     z-index: 15;
-
 }
 
 .fog-2{
     position: absolute;
-    width: 1038px;
-    top: calc(50% - 147px);
-    left: calc(50% - 30px);
+    width: 72.08%;
+    top: 31.86%;
+    left: 47.92%;
     z-index: 16;
-
 }
 
 .mountain-2{
     position: absolute;
-    width: 538px;
-    top: calc(50% + 154px);
-    left: calc(50% + 350px);
+    width: 37.36%;
+    top: 69.01%;
+    left: 74.30%;
     z-index: 17;
-
 }
 
 .mountain-1{
     position: absolute;
-    width: 530px;
-    top: calc(50% + 17px);
-    left: calc(50% - 601px);
+    width: 36.8%;
+    top: 52.1%;
+    left: 8.27%;
     z-index: 18;
-
 }
 
 .sun-rays{
@@ -294,17 +277,16 @@ main {
     z-index: 19;
     top: 0;
     right: 0;
-    width: 595px;
+    width: 41.31%;
     pointer-events:none ;
 }
 
 .fog-1{
     position: absolute;
-    width: 1600px;
-    top: calc(100% - 335px);
+    width: 111.11%;
+    top: 58.65%;
     left: 50%;
     z-index: 21;
-
     pointer-events: none;
 }
 

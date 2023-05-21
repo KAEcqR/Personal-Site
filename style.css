@@ -13,7 +13,3 @@ background: #30769c;
 ::-webkit-scrollbar-thumb:hover {
 background: #146a92; 
 }
-
-section {
-    height: 1000px;
-}
