@@ -25,6 +25,11 @@ function update(cursorposition) {
     perspective(2000px)
     translateZ(calc(${zValue * speedz}px))`
     })
+
+    let blob = document.querySelector("#blob1")
+    blob.style.transform = `
+    translateX(calc(${xValue * 0.05}px)) 
+    translateY(calc(${yValue * 0.05}px))`
 }
 
 window.addEventListener("mousemove", (e) => {
