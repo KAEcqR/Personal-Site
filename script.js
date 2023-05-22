@@ -41,5 +41,3 @@ if(window.innerWidth >= 725) {
 }else{
     main.style.maxHeight = `${window.innerWidth * 1.6}px`
 }
-
-
