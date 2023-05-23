@@ -1,0 +1,31 @@
+@media (max-width: 1100px){
+    .text h1{
+        font-size: 5.8rem;
+    }
+
+    .text h2{
+        font-size: 4.7rem;
+    }
+}
+
+@media (max-width: 725px){
+    .text h1{
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+
+    .text h2{
+        font-size: 4.1rem;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 520px){
+    .text h1{
+        font-size: 3.3rem;
+    }
+
+    .text h2{
+        font-size: 2.6rem;
+    }
+}
