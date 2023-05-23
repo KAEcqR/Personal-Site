@@ -79,3 +79,23 @@ body {
     border: 5px solid transparent;
     background-clip: content-box;
 }
+
+.trailer {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 500ms ease;
+}
+
+body:hover > .trailer {
+    opacity: 1;
+}
