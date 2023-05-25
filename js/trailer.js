@@ -21,8 +21,4 @@ window.onmousemove = e => {
           interacting = interactible !== null
 
     animateTrailer(e, interacting)
-
-    if(interacting) {
-        trailer.className
-    }
 }

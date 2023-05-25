@@ -29,3 +29,31 @@
         font-size: 2.6rem;
     }
 }
+
+@media (max-width: 1400px){
+    .about-text{
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 1;
+        color: rgb(232, 255, 249);
+    }
+
+    .marker1{
+        width: 30px;
+        font-size: 0.6rem;
+    }
+    
+    .marker2{
+        width: 30px;
+        font-size: 0.6rem;
+    }
+    
+    .marker3{
+        width: 30px;
+        font-size: 0.6rem;
+    }
+
+    .trailer {
+        display: none;
+    }
+}
