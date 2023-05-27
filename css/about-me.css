@@ -95,10 +95,3 @@ body {
 #blob1 {
     transition: 1s cubic-bezier(0.2, 0.49, 0.32, 0.99);
 }
-
-.stack{
-    background-color: #2F4858;
-    width: 100%;
-    height: 800px;
-}
-
