@@ -25,11 +25,6 @@ function update(cursorposition) {
     perspective(2000px)
     translateZ(calc(${zValue * speedz}px))`
     })
-
-    let blob = document.querySelector("#blob1")
-    blob.style.transform = `
-    translateX(calc(${xValue * 0.05}px)) 
-    translateY(calc(${yValue * 0.05}px))`
 }
 
 window.addEventListener("mousemove", (e) => {
@@ -47,21 +42,41 @@ if(window.innerWidth >= 725) {
     main.style.maxHeight = `${window.innerWidth * 1.6}px`
 }
 
-const tween = KUTE.fromTo(
-    '#blob1',
-    { path: '#blob1'},
-    { path: '#blob2'},
-    { repeat: 999, duration: 3000, yoyo: true}
-)
+const bgMusic = document.querySelector(".background-music")
+bgMusic.volume = 0.2
 
-tween.start()
+const birds = document.querySelector(".birds")
+birds.volume = 0.5
 
-/* Open when someone clicks on the span element */
+const river = document.querySelector(".river")
+river.volume = 1.0
+
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
-  }
-  
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
+    
+    if (bgMusic.volume === 0.2){
+        bgMusic.volume = 0.07
+    } else {
+        bgMusic.volume = 0.0
+    }
+}
+
+function closeNav() {
     document.getElementById("myNav").style.width = "0%";
-  }
+
+    if (bgMusic.volume === 0.07){
+        bgMusic.volume = 0.2
+    } else {
+        bgMusic.volume = 0.0
+    }
+}
+
+document.querySelector(".mute").addEventListener("click", () => {
+    if (bgMusic.volume === 0.2){
+        bgMusic.volume = 0.0
+        document.querySelector(".mute").innerHTML = "UNMUTE"
+    } else {
+        bgMusic.volume = 0.2
+        document.querySelector(".mute").innerHTML = "MUTE"
+    }
+})

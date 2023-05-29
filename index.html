@@ -15,23 +15,30 @@
 
     <!--* Z-INDEX  TABLE : -->
     <!--* 0-100 Paralax -->
-    <!--* 0-100 Paralax -->
+    <!--* 5000 Overlay -->
+    <!--* 10000 Trailer -->
     
     <div class="trailer"></div>
-    <style>
-    </style>
-    </head>
-        
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <h1>INDEX</h1>
-            <a href="about.html">About</a>
-            <a href="index.html">Index</a>
-          </div>
+
+    <span class="mute interactible" style="font-size:30px;cursor:pointer">MUTE</span>
+    <audio autoplay loop class="background-music" style="z-index: -200;">
+        <source src="img/Music.mp3" class="music" type="audio/mp3">
+        <source src="img/Birds.mp3" class="birds" type="audio/mp3">
+        <source src="img/River.mp3" class="river" type="audio/mp3">
+    </audio>
+
+    <div class="navOutline navOutline1"></div>
+    <div class="openNav interactible" onclick="openNav()">&#9776;</div>
+    <div class="navOutline navOutline2"></div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn interactible" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <h1>INDEX</h1>
+        <a href="about.html">About</a>
+        <a href="index.html">Index</a>
         </div>
-        
-        <span class="openNav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
            
     <main>
         <div class="vignette"></div>
@@ -59,38 +66,12 @@
         <img src="img/mountain_1.png" data-speedx="0.027" data-speedy="0.018" data-speedz="0.53" data-distance="4000" class="parallax mountain-1">
         <img src="img/sun_rays.png" data-speedx="0" data-speedy="0" data-speedz="0" data-distance="0" class="sun-rays">
         <img src="img/fog_1.png" data-speedx="0.12" data-speedy="0.01" data-speedz="0" data-distance="4200" class="parallax fog-1">
-        <div class="custom-shape-divider-bottom-1684774565">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-            </svg>
-        </div>
     </main>
-
-    <section id="about-me" class="about"> 
-        <div class="container">
-            <div class="about-text">
-                <div class="marker1"> < h1 > </div>
-                <h1>Hi, i'm <div class="text-color interactible">Kacper</div></h1>
-                <div class="marker3"> < /h1 > </div>
-                <div class="marker1"> < p > </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Cupiditate, ab iure atque quibusdam assumenda ipsam natus ipsum blanditiis neque exercitationem architecto,
-                tempora earum dignissimos vel magnam deserunt ex veniam tempore.</p>
-                <div class="marker2"> < /p ></div>
-            </div>
-
-            <div class="model"></div>
-            <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-                <g transform="translate(494.71073697788427 295.678985682989)"><path id="blob1" d="M101.4 -114.9C132 -70.7 158 -35.4 163.1 5.1C168.2 45.5 152.3 91 121.6 134.3C91 177.6 45.5 218.8 -6.8 225.7C-59.2 232.5 -118.3 205 -168.3 161.7C-218.3 118.3 -259.2 59.2 -252.8 6.4C-246.4 -46.4 -192.9 -92.9 -142.9 -137C-92.9 -181.2 -46.4 -223.1 -5.5 -217.6C35.4 -212 70.7 -159 101.4 -114.9"fill="#009473"></path></g>
-                <g transform="translate(467.65683471705404 297.4422842498495)" style="visibility: hidden;"><path id="blob2" d="M109.9 -113.9C134.9 -84.9 142.4 -42.4 156.6 14.1C170.7 70.7 191.4 141.4 166.4 167.3C141.4 193.1 70.7 174 16 158C-38.7 142 -77.3 129 -117.3 103.1C-157.3 77.3 -198.7 38.7 -210.1 -11.4C-221.5 -61.5 -203 -123 -163 -152C-123 -181 -61.5 -177.5 -9.5 -168C42.4 -158.4 84.9 -142.9 109.9 -113.9" fill="#009473"></path></g>
-            </svg>
-        </div>
-    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
     <script src="js/trailer.js" defer></script>
     <script src="js/script.js" defer></script>
-    <script src="js/three.js" type="module"></script>
+    <script src="js/gsap.js" defer></script>
 </body>
 </html>
